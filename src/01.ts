@@ -3,7 +3,7 @@ import fs from 'fs-extra';
 
 const SUM = 2020;
 
-export async  function read(input: string) : Promise<number[]> {
+export async function read(input: string) : Promise<number[]> {
     return (await fs.readFile(path.resolve(__dirname, '../inputs/', input)))
         .toString()
         .split('\n')

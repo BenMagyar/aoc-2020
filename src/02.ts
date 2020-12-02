@@ -1,6 +1,5 @@
 import path from 'path';
 import fs from 'fs-extra';
-import { PRIORITY_LOW } from 'constants';
 
 interface PasswordEntry {
     character: string;
