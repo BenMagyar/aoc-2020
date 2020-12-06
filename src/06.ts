@@ -31,7 +31,7 @@ export function sumOfAllYes(input: Group[]) {
         }, {});
         const groupSum = Object.values(counts)
             .filter(c => c === group.length)
-            .reduce((a, b) => a + 1, 0);
+            .length;
         return count + groupSum;
     }, 0)
 }
