@@ -1,7 +1,5 @@
 import path from 'path';
 import fs from 'fs-extra';
-import { count } from 'console';
-import { validPasswordsAtPosition } from './02';
  
 interface RuleGroup { color: string; amount: number };
 interface Rule { color: string, contains: RuleGroup[] };
