@@ -1,6 +1,6 @@
 import { read, findHighestSeatId, findMissingSeatIds } from '../src/05';
 
-describe('day 03', () => {
+describe('day 05', () => {
     let example; 
 
     beforeEach(async () => {
